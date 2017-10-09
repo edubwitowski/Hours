@@ -5,36 +5,24 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Employee (Display) employees = new Employee Display ();
-        Employee emp1 = new Employee("Administrator");
-        employee.add(emp1);
-        Employee emp2 = new Employee("Technical");
-        employee.add(emp2);
-        Employee emp3 = new Employee("Sales");
-        employee.add(emp3);
 
+        Employee worker1 = new Employee (" John Doe ", PositionTitle.ADMINISTRATION,true, 34.00, 1, "Februrary 17, 1978");
 
+       Employee worker2 = new Employee (  " Jane Down",   PositionTitle.SECRETARIAL,false, 44.00, 3, "March 31 2008" );
 
-        Employee person1 = new Employee ( " John Doe", PositionTitle.ADMINISTRATION , true, 1, 34.00 );
+        Employee worker3 = new Employee (   " Mike Left",PositionTitle.TECHNICAL, false, 56.00, 2, "Aug 8, 2012");
 
-       Employee person2 = new Employee (  " Jane Down",  " PositionTitle.SECRETARIAL" , false, 2, 10.00 );
-
-        Employee person3 = new Employee (   " Mike Left"," PositionTitle.TECHNICAL " , true, 3, 56.00  );
-
-
-        person1.display();
-        person1.calculate(45);
-        person2.display();
-        person2.calculate(50);
-        person3.printAll();
-        person3.display(35);
-    }
-
-
-
-
-
+/**
+ * True equals is salary
+ */
+        worker1.display();
+        worker1.calculate(45);
+        worker2.display();
+        worker2.calculate(50);
+        worker3.display();
+        worker3.calculate(35);
 
 
     }
+}
 
